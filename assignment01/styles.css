@@ -1,0 +1,72 @@
+/* Reset some default styles */
+body, h1, h2, p, button {
+    margin: 0;
+    padding: 0;
+}
+
+/* Set a background color for the entire page */
+body {
+    background-color: #f4f4f4;
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+/* Style the header with a background color */
+h1 {
+    background-color: #007BFF;
+    padding: 10px;
+    color: white;
+}
+
+/* Style the student ID text */
+#studentId {
+    font-style: italic;
+    margin-bottom: 10px;
+}
+
+/* Style each section with a white background and padding */
+section {
+    background-color: white;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 5px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Style buttons with a gradient background and rounded corners */
+button {
+    background: linear-gradient(to bottom, #007BFF, #0056b3);
+    color: white;
+    padding: 10px 20px;
+    margin: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+button:hover {
+    background: linear-gradient(to bottom, #0056b3, #003c80);
+}
+
+/* Style the story paragraph with bigger font size and margin */
+#story {
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+/* Add media query for smaller screens */
+@media (max-width: 768px) {
+    h1 {
+        font-size: 24px;
+    }
+    
+    h2 {
+        font-size: 18px;
+    }
+    
+    button {
+        padding: 8px 16px;
+        margin: 8px;
+    }
+}
